@@ -1,0 +1,7 @@
+{
+  "name": "nebula.fake-server",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "json-server --watch src/db.json --port 8080"
+  }
+}
