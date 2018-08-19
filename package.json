@@ -4,11 +4,15 @@
   "scripts": {
     "start": "nodemon app/app.js",
     "start-auth": "nodemon app/app-auth.js",
-    "generate-database": "node app/generate-database.js > app/database/database.json"
+    "generate-database": "node app/generate-database.js > app/database/database.json",
+    "course": "ts-node app/course/server.ts"
   },
   "devDependencies": {
+    "@types/express": "^4.16.0",
     "faker": "^4.1.0",
-    "nodemon": "^1.18.2"
+    "nodemon": "^1.18.2",
+    "ts-node": "^7.0.0",
+    "typescript": "^3.0.1"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
